@@ -1,0 +1,16 @@
+.character-detail-container {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.418) 5px 5px 10px;
+  transition: 0.3s;
+}
+
+.character-detail-container:hover {
+  transform: scale(1.05);
+}
+
+.character-detail-container > img {
+  width: 350px;
+  border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.movie-detail-container {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 3px dotted rgba(49, 49, 49, 0.342);
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-picture {
+  width: 700px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.characters-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
